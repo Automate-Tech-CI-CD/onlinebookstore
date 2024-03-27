@@ -16,3 +16,5 @@ jobs:
         with:
           tool: sonar
           sonar-token: ${{ secrets.SONAR_TOKEN }}
+          sonar-component-key: owner_repo
+          sonar-api-url: https://sonarcloud.io/api
